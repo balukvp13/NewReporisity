@@ -15,6 +15,8 @@
 		9B18B05623E9D14B00F4A3E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B18B05423E9D14B00F4A3E3 /* LaunchScreen.storyboard */; };
 		9B18B06123E9D14B00F4A3E3 /* NewProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B18B06023E9D14B00F4A3E3 /* NewProjectTests.m */; };
 		9B18B06C23E9D14B00F4A3E3 /* NewProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B18B06B23E9D14B00F4A3E3 /* NewProjectUITests.m */; };
+		9B18B07B23E9D78800F4A3E3 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B18B07A23E9D78800F4A3E3 /* ViewController1.m */; };
+		9B18B07D23E9D7CD00F4A3E3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B18B07C23E9D7CD00F4A3E3 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		9B18B06723E9D14B00F4A3E3 /* NewProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B18B06B23E9D14B00F4A3E3 /* NewProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewProjectUITests.m; sourceTree = "<group>"; };
 		9B18B06D23E9D14B00F4A3E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B18B07923E9D78800F4A3E3 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		9B18B07A23E9D78800F4A3E3 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		9B18B07C23E9D7CD00F4A3E3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B18B07D23E9D7CD00F4A3E3 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +87,7 @@
 		9B18B03A23E9D14B00F4A3E3 = {
 			isa = PBXGroup;
 			children = (
+				9B18B07C23E9D7CD00F4A3E3 /* MapKit.framework */,
 				9B18B04523E9D14B00F4A3E3 /* NewProject */,
 				9B18B05F23E9D14B00F4A3E3 /* NewProjectTests */,
 				9B18B06A23E9D14B00F4A3E3 /* NewProjectUITests */,
@@ -105,6 +112,8 @@
 				9B18B04A23E9D14B00F4A3E3 /* AppDelegate.m */,
 				9B18B04C23E9D14B00F4A3E3 /* ViewController.h */,
 				9B18B04D23E9D14B00F4A3E3 /* ViewController.m */,
+				9B18B07923E9D78800F4A3E3 /* ViewController1.h */,
+				9B18B07A23E9D78800F4A3E3 /* ViewController1.m */,
 				9B18B04F23E9D14B00F4A3E3 /* Main.storyboard */,
 				9B18B05223E9D14B00F4A3E3 /* Assets.xcassets */,
 				9B18B05423E9D14B00F4A3E3 /* LaunchScreen.storyboard */,
@@ -270,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B18B07B23E9D78800F4A3E3 /* ViewController1.m in Sources */,
 				9B18B04E23E9D14B00F4A3E3 /* ViewController.m in Sources */,
 				9B18B04B23E9D14B00F4A3E3 /* AppDelegate.m in Sources */,
 				9B18B04823E9D14B00F4A3E3 /* main.m in Sources */,
